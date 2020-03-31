@@ -1,0 +1,142 @@
+
+  
+  
+  
+  
+  
+  
+  
+  fieldset {
+    margin: 0;
+    padding: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    -webkit-padding-before: 0;
+    -webkit-padding-start: 0;
+    -webkit-padding-end: 0;
+    -webkit-padding-after: 0;
+    border: 0;
+  }
+  
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .s006 
+  {
+    height:610px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: url("images/webimages/back_search.jpg");
+    background-size: cover;
+    background-position: center center;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  .s006 form 
+  {
+    height:610px;
+    width:1034px;
+  }
+  
+  .s006 form legend {
+    font-size: 36px;
+    color: #fff;
+    font-weight: 550;
+    text-align: center;
+    margin-bottom: 59px;
+  }
+  
+  .s006 form .inner-form
+   {
+    width: 100%;
+    margin-bottom: 17px;
+  }
+  
+  .s006 form .inner-form .input-field 
+  {
+    height: 70px;
+    width: 50%;
+    position: relative;
+  }
+  
+  .s006 form .inner-form .input-field input 
+  {
+    margin-left:53%;
+    height: 80%;
+    width: 50%;
+    background: transparent;
+    border: 0;
+    background: #fff;
+    display: block;
+    width: 100%;
+    padding: 10px 32px 10px 70px;
+    font-size: 18px;
+    color: rgb(75, 74, 74);
+    border-radius: 34px;
+  }
+  
+  .s006 form .inner-form .input-field input.placeholder {
+    color: #ccc;
+    font-size: 18px;
+  }
+  
+  .s006 form .inner-form .input-field input:-moz-placeholder {
+    color: #ccc;
+    font-size: 18px;
+  }
+  
+  .s006 form .inner-form .input-field input::-webkit-input-placeholder {
+    color: #ccc;
+    font-size: 18px;
+  }
+  
+  .s006 form .inner-form .input-field input:hover, .s006 form .inner-form .input-field input:focus {
+    box-shadow: none;
+    outline: 0;
+  }
+  
+  
+  .s006 form .suggestion-wrap 
+  {
+    padding: 0 15px;
+  }
+  
+  .s006 form .suggestion-wrap a
+  {
+    font-size: 14px;
+    font-family: 'Helvetica', sans-serif;
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 0 15px;
+    line-height: 32px;
+    color: #fff;
+    border-radius: 16px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border:none;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 767px) 
+  {
+    .s006 form .inner-form .input-field {
+      margin-bottom: 20px;
+      height: 50px;
+    }
+    .s006 form .inner-form .input-field input {
+      padding-left: 55px;
+      font-size: 16px;
+    }
+    .s006 form .inner-form .input-field .btn-search svg {
+      width: 26px;
+      height: 26px;
+    }
+  }
+ 
